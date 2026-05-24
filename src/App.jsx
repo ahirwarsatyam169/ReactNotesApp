@@ -114,7 +114,7 @@ function App() {
                 setTitle(e.target.value);
               }}
               type="text"
-              className="text-3xl text-black/75 border-none  hover:shadow-xl hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 focus:outline-none ml-[10px] mt-5  flex justify-center items-center h-[50px] md:w-[300px] w-[200px] rounded-xl p-2 bg-gradient-to-r from-amber-50 to-yellow-100 hover:scale-105"
+              className="text-2xl text-black/75 border-none  hover:shadow-xl hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 focus:outline-none ml-[10px] mt-5  flex justify-center items-center h-[50px] md:w-[300px] w-[200px] rounded-xl p-2 bg-gradient-to-r from-amber-50 to-yellow-100 hover:scale-105"
               placeholder="title"
             />
 
