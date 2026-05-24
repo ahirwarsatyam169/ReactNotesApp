@@ -122,7 +122,7 @@ function App() {
           </div>
 
           {/* Textarea */}
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center ">
             <div className="h-[550px] w-[99%] flex items-center justify-center">
               <textarea
                 type="text"
@@ -131,7 +131,7 @@ function App() {
                   setContent(e.target.value);
                 }}
                 placeholder="type something...."
-                className="border-none focus:outline-none  mt-5  w-[90%] h-[90%] rounded-xl p-4 bg-gradient-to-r from-amber-50 to-yellow-100 hover:scale-[102%] hover:shadow-xl hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 text-black/75 "
+                className="border-none focus:outline-none resize-none  mt-5  w-[90%] h-[90%] rounded-xl p-4 bg-gradient-to-r from-amber-50 to-yellow-100 hover:scale-[102%] hover:shadow-xl hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 text-black/75 "
               />
             </div>
           </div>
