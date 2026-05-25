@@ -102,13 +102,13 @@ function App() {
                   <div className="flex justify-between m-2">
                     <button
                       onClick={() => setTheme("red")}
-                      className={`rounded-[50px] border p-1 border-white/50 bg-gradient-to-r from-red-500 to-red-400 hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 hover:scale-[115%] active:scale-95 ${theme === "red" ? "ring-1 ring-white" : ""}`}
+                      className={`rounded-[50px] border p-1 border-white/50 bg-gradient-to-r from-red-500 to-red-400 hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 hover:scale-[115%] active:scale-95 ${theme === "red" ? "ring-0.5 ring-white" : ""}`}
                     >
                       Red
                     </button>
                     <button
                       onClick={() => setTheme("yellow")}
-                      className={`rounded-[50px] border p-1 border-white/50 bg-gradient-to-r from-amber-200 to-yellow-400 hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 hover:scale-[115%] active:scale-95 ${theme === "yellow" ? "ring-1 ring-white" : ""}`}
+                      className={`rounded-[50px] border p-1 border-white/50 bg-gradient-to-r from-amber-200 to-yellow-400 hover:shadow-[0px_0px_40px_rgba(255,255,255,0.5)] transition-all duration-300 hover:scale-[115%] active:scale-95 ${theme === "yellow" ? "ring-0.5 ring-white" : ""}`}
                     >
                       Yellow
                     </button>
